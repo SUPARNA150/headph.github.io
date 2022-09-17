@@ -66,7 +66,7 @@ section{
     padding:.9rem 4rem;
     font-size: 1.7rem;
     color:rgb(255, 255, 255);
-    background-color: rgb(166, 40, 40);
+    background-color: var(--main-color);
     cursor: pointer;
 }
 
@@ -115,7 +115,7 @@ section{
     color:var(--main-color);
 }
 
-#menu-btn{
+#products-btn{
     display: none;
 }
 
@@ -201,6 +201,7 @@ section{
 .header .cart-items-container .cart-item .content .price{
     font-size: 1.5rem;
     color:var(--main-color);
+    padding-bottom: .5rem;
 }
 
 .header .cart-items-container .btn{
@@ -654,3 +655,4 @@ section{
     }
 
 }
+
